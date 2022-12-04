@@ -5,12 +5,12 @@
   width: 40rem;
   height: 100vh;
   background-color: $color4;
-  overflow: hidden;
   border-left: 0.8rem solid $color3;
   border-right: 2px solid $color3;
 
   nav {
     border-top: 2px solid black;
+    overflow: hidden;
     margin-top: 2rem;
 
     ul {

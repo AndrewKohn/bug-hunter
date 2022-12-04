@@ -34,7 +34,13 @@ li {
     height: 100%;
     width: 100%;
     color: $color2;
+    font-family: inherit;
     cursor: pointer;
+
+    p {
+      margin-left: 1.2rem;
+      font-size: 1.6rem;
+    }
 
     &:hover p {
       font-weight: 700;

@@ -3,12 +3,14 @@ import './NavLinkButton.scss';
 
 interface Props {
   children: ReactNode;
+  icon: JSX.Element;
 }
 
-const NavLinkButton = ({ children }: Props) => {
+const NavLinkButton = ({ children, icon }: Props) => {
   return (
     <li>
       <button>
+        {icon}
         <p>{children}</p>
       </button>
     </li>
