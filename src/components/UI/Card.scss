@@ -1,0 +1,8 @@
+@use '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.card {
+  padding: 2.4rem 4rem;
+  background-color: $color5;
+  border-radius: 13px;
+}
