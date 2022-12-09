@@ -1,7 +1,7 @@
 import './NavBar.scss';
 import { IconContext } from 'react-icons';
 import { RxDashboard, RxComponent1 } from 'react-icons/rx';
-import { GoIssueOpened, GoSettings } from 'react-icons/go';
+import { GoCode, GoGraph, GoIssueOpened, GoSettings } from 'react-icons/go';
 import NavLinkButton from './NavLinkButton';
 import UserProfile from './UserProfile';
 
@@ -21,12 +21,14 @@ const NavBar = ({}) => {
           <NavLinkButton icon={addIcon(<RxDashboard />)}>
             Dashboard
           </NavLinkButton>
+          <NavLinkButton icon={addIcon(<GoGraph />)}>Reports</NavLinkButton>
           <NavLinkButton icon={addIcon(<RxComponent1 />)}>
             Projects
           </NavLinkButton>
           <NavLinkButton icon={addIcon(<GoIssueOpened />)}>
-            Tickets
+            Issues
           </NavLinkButton>
+          <NavLinkButton icon={addIcon(<GoCode />)}>Repository</NavLinkButton>
           <NavLinkButton icon={addIcon(<GoSettings />)}>Settings</NavLinkButton>
         </ul>
       </nav>

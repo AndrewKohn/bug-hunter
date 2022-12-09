@@ -38,6 +38,19 @@ li {
     font-family: inherit;
     cursor: pointer;
 
+    .icon {
+      @include mixins.DisplayFlex(center, center, row, nowrap);
+
+      color: $color2;
+      transition: all 0.25s ease-in;
+    }
+
+    &:hover .icon {
+      margin-left: 0.8rem;
+      color: $color3;
+      transition: all 0.25s ease;
+    }
+
     p {
       margin-left: 1.2rem;
       font-size: 1.6rem;

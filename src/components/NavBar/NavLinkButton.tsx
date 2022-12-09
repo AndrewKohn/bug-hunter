@@ -10,7 +10,7 @@ const NavLinkButton = ({ children, icon }: Props) => {
   return (
     <li>
       <button>
-        {icon}
+        <div className="icon">{icon}</div>
         <p className="nav-link-text">{children}</p>
       </button>
     </li>
