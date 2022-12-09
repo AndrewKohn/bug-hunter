@@ -11,7 +11,7 @@ const NavLinkButton = ({ children, icon }: Props) => {
     <li>
       <button>
         {icon}
-        <p>{children}</p>
+        <p className="nav-link-text">{children}</p>
       </button>
     </li>
   );

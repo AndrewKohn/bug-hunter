@@ -17,6 +17,7 @@ li {
     height: 100%;
     background-color: $color4;
     z-index: -1;
+    transition: transform 0.25s ease-in;
   }
 
   &:hover::before {
@@ -45,6 +46,11 @@ li {
     &:hover p {
       font-weight: 700;
       letter-spacing: 2px;
+      transition: all 0.25s ease-in;
+    }
+
+    &:not(:hover) p {
+      transition: all 0.25s ease-in;
     }
   }
 }
