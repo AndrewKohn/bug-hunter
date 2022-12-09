@@ -1,14 +1,12 @@
 import './App.scss';
+import Dashboard from './components/Dashboard/Dashboard';
 import NavBar from './components/NavBar/NavBar';
 
 const App = ({}) => {
   return (
     <main>
       <NavBar />
-
-      <div className="container">
-        <h1>hi</h1>
-      </div>
+      <Dashboard />
     </main>
   );
 };
