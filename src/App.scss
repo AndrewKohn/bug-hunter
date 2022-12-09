@@ -3,13 +3,7 @@
 
 main {
   @include mixins.DisplayFlex(flex-start, center, row, nowrap);
-  background-color: $color4;
+  background-color: $color1;
   width: 100vw;
   height: 100vh;
-
-  .navBar {
-    background-color: $color5;
-    width: 20rem;
-    height: 100%;
-  }
 }
