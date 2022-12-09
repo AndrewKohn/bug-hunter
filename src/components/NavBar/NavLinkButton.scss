@@ -25,11 +25,11 @@ li {
     transition: transform 1s ease;
   }
 
+  // Button
   button {
     @include mixins.DisplayFlex(flex-start, center, row, nowrap);
 
     border: none;
-    // border-left: 0.4rem solid $color3;
     padding: 1.2rem;
     background: none;
     height: 100%;
@@ -38,6 +38,7 @@ li {
     font-family: inherit;
     cursor: pointer;
 
+    // Icon
     .icon {
       @include mixins.DisplayFlex(center, center, row, nowrap);
 
@@ -51,6 +52,7 @@ li {
       transition: all 0.25s ease;
     }
 
+    // button text
     p {
       margin-left: 1.2rem;
       font-size: 1.6rem;

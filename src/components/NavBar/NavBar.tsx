@@ -9,10 +9,9 @@ interface Props {}
 
 const NavBar = ({}) => {
   const addIcon = (icon: JSX.Element) => (
-    <IconContext.Provider value={{ size: '2.4rem' }}>
-      {icon}
-    </IconContext.Provider>
+    <IconContext.Provider value={{ size: '24px' }}>{icon}</IconContext.Provider>
   );
+
   return (
     <div className="nav-bar">
       <UserProfile />
