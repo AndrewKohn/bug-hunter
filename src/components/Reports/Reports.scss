@@ -1,7 +1,7 @@
 @use '../../styles/mixins.scss';
 @import '../../styles/variables';
 
-.dashboard-section {
+.reports-section {
   @include mixins.DisplayFlex(flex-start, center, column, nowrap);
   width: 100%;
   height: 100%;
@@ -10,9 +10,14 @@
     @include mixins.SectionTitle;
   }
 
-  .overview-container {
+  .graphs-container {
     @include mixins.DisplayFlex(space-around, center, row, nowrap);
     width: 80%;
     margin-top: 6rem;
+
+    .chart {
+      width: 40rem;
+      height: 40rem;
+    }
   }
 }

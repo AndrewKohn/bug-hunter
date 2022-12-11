@@ -1,12 +1,12 @@
 import './App.scss';
-import Dashboard from './components/Dashboard/Dashboard';
 import NavBar from './components/NavBar/NavBar';
+import Reports from './components/Reports/Reports';
 
 const App = ({}) => {
   return (
     <main>
       <NavBar />
-      <Dashboard />
+      <Reports />
     </main>
   );
 };

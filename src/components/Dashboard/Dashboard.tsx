@@ -13,11 +13,6 @@ const Dashboard = ({}) => {
         <Card>Code Review</Card>
         <Card>Completed</Card>
       </div>
-      <div className="graphs-container">
-        <Card>Project completion bar</Card>
-        <Card>Issues distribution pie chart</Card>
-        <Card>Completed Issues</Card>
-      </div>
     </section>
   );
 };
