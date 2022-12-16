@@ -1,0 +1,17 @@
+@use '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.container {
+  @include mixins.DisplayFlex(space-between, center, row, nowrap);
+}
+
+.project-title {
+  font-weight: 700;
+}
+
+.progress-bar {
+  width: 40%;
+  height: 0.8rem;
+  background-color: $color2;
+  border-radius: 13px;
+}
