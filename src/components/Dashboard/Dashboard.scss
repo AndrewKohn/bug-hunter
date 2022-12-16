@@ -6,10 +6,6 @@
   width: 100%;
   height: 100%;
 
-  .section-title {
-    @include mixins.SectionTitle;
-  }
-
   .overview-container {
     @include mixins.DisplayFlex(space-around, center, row, nowrap);
     width: 80%;

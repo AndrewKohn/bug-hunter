@@ -1,4 +1,5 @@
 import Card from '../UI/Card';
+import SectionHeading from '../UI/SectionHeading';
 import './Dashboard.scss';
 
 interface Props {}
@@ -6,7 +7,7 @@ interface Props {}
 const Dashboard = ({}) => {
   return (
     <section className="dashboard-section">
-      <h2 className="section-title">Dashboard</h2>
+      <SectionHeading title="Dashboard" />
       <div className="overview-container">
         <Card>To Do</Card>
         <Card>In Progress</Card>
