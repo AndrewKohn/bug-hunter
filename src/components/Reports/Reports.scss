@@ -2,18 +2,20 @@
 @import '../../styles/variables';
 
 .reports-section {
-  @include mixins.DisplayFlex(flex-start, center, column, nowrap);
-  width: 100%;
-  height: 100%;
-
-  .section-title {
-    @include mixins.SectionTitle;
-  }
+  @include mixins.Section;
 
   .graphs-container {
-    @include mixins.DisplayFlex(space-around, center, row, nowrap);
+    @include mixins.DisplayFlex(space-around, center, row, wrap);
     width: 80%;
     margin-top: 6rem;
+    row-gap: 8rem;
+
+    .chart-title {
+      font-size: 2rem;
+      letter-spacing: 1.5px;
+      margin-bottom: 1.2rem;
+      text-align: center;
+    }
 
     .chart {
       width: 40rem;

@@ -29,10 +29,10 @@ const CompletedIssuesChart = ({}) => {
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        position: 'top' as const,
+        display: false,
       },
       title: {
-        display: true,
+        display: false,
         text: 'Completed Issues',
       },
     },
